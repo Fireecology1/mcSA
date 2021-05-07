@@ -85,12 +85,3 @@ samc<-function(ffmc, dmc, stand, density, season) {
 
 #[End]
 #
-
-#mcF, mcD functions on their own to get estimated #moisture contents from FFMC, DMC
-mcF<-function(ffmc){
-  147.2*(101-ffmc)/(59.5+ffmc)
-}
-mcD<-function(dmc) {
-  20+exp(-(dmc-244.72)/43.43)
-}
-#[End]
