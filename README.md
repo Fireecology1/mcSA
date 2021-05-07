@@ -9,4 +9,15 @@ density (1:3; light, mod, dense),
 season (1, 1.5, 2, 3; spring, spr-sum transition, sum, fall)
 season==1.5 represents spring/summer transition (uses half of spring, half of summer estimate);
 
+The present code produces a function that can be used in a variety of contexts. 
+E.g. FFMC 90.5, DMC 70, pine, moderate density, summer:
+
+```{r}
+samc(90.5, 70, 4, 2, 2)
+
+> 9.537645
+```
+
 #D.Perrakis, October 2020; daniel.perrakis@canada.ca
+
+
