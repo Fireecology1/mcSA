@@ -18,8 +18,8 @@ samc(90.5, 70, 4, 2, 2)
 > 9.537645
 ```
 
-Note that the mcSA behaves counter-intuitively at high FFMC levels; this is particularly a problem with 'high' density (density==3 in the function). 
-See the 'ConPyro' branch for more details and a version that address this. 
+Note that the mcSA behaves counter-intuitively at high FFMC levels; this is particularly a problem with 'high' density (density==3 in the function) at 
+FFMC > 92.9. See the 'ConPyro' branch for more details and a version that address this. 
 
 #D.Perrakis, May 2021; daniel.perrakis@canada.ca
 
