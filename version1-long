@@ -4,7 +4,11 @@
 #Requires FFMC, DMC, stand (1:5; deciduous, Douglas-fir, mixedwood, pine, spruce), 
 #density (1:3; light, mod, dense), season (1, 1.5, 2, 3; spring, spr-sum transition, sum, fall)
 #season==1.5 represents spring/summer transition (uses half of spring, half of summer estimate)
-#D.Perrakis, June 2020; daniel.perrakis@canada.ca
+#ConPyro version includes a statement recoding density at high FFMC levels, to avoid nonsensical  
+#behaviour with the pure statistical models. 
+#Above FFMC 92.9, dense stands recoded to moderate
+#Above FFMC 96.1, light stands recoded to moderate
+#D.Perrakis, May 2021; daniel.perrakis@canada.ca
 
 #base R - no packages required
 
